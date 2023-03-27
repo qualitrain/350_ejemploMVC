@@ -7,24 +7,4 @@
   <welcome-file-list>
     <welcome-file>formularios/Menu.html</welcome-file>
   </welcome-file-list>
-<!--   <servlet>
-    <description></description>
-    <display-name>S01_AltaArticuloServlet</display-name>
-    <servlet-name>S01_AltaArticuloServlet</servlet-name>
-    <servlet-class>mx.com.qtx.web.S01_AltaArticuloServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>S01_AltaArticuloServlet</servlet-name>
-    <url-pattern>/S01_AltaArticuloServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>SJSP_RuteadorServlet</display-name>
-    <servlet-name>SJSP_RuteadorServlet</servlet-name>
-    <servlet-class>mx.com.qtx.web.SJSP_RuteadorServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>SJSP_RuteadorServlet</servlet-name>
-    <url-pattern>/SJSP_RuteadorServlet</url-pattern>
-  </servlet-mapping>
- --></web-app>
+</web-app>

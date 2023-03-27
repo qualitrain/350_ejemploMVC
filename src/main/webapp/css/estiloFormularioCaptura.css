@@ -1,6 +1,69 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+	
+	padding: 10px;
+}
+label{
+	display:inline-block;
+	width: 7rem;
+	
+	margin-bottom: 6px;
+	
+	font-weight: bold;
+}
+form{
+	border-radius: 3px;
+	
+	padding: 10px;
+	
+	background-color: hsl(120,10%,90%);
+}
+input[type="text"]{
+	height:1.5rem;
+	
+	border-radius:4px;
+	border-width: 1px;
+	
+	font-family: inherit;
+	font-size: 1.05rem;
+}
+
+div.divBotones{
+	margin-top: 6px;
+}
+
+div.divBotones input[type="submit"]{
+	font-family:inherit;
+	font-size: 1.1rem;
+	
+	background-color: hsl(120,10%,30%);
+	color:hsl(120,100%,80%);
+	
+	border-radius: 4px;
+	
+	height: 2.5rem;
+	width: 7rem;
+	
+	margin-right: 10px;
+}
 .mensajeError{
-    color:Red;
+    color:hsl(0,100%,30%);
+    
+    font-weight: bold;
+    
+    margin-left: 5px;
 }
 .mensajeExito{
     color:Green;
 }
+#idCveArticulo{
+	width: 12rem;
+}
+#idDescripcion{
+	width: 20rem;
+}
+#idCostoProv1, #idPrecioLista{
+	width: 10rem;
+	text-align: right;
+}
+
