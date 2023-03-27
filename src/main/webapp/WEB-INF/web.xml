@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+         id="WebApp_ID" version="4.0">
+  <display-name>350_ejemploMVC</display-name>
+  <welcome-file-list>
+    <welcome-file>formularios/Menu.html</welcome-file>
+  </welcome-file-list>
+<!--   <servlet>
+    <description></description>
+    <display-name>S01_AltaArticuloServlet</display-name>
+    <servlet-name>S01_AltaArticuloServlet</servlet-name>
+    <servlet-class>mx.com.qtx.web.S01_AltaArticuloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>S01_AltaArticuloServlet</servlet-name>
+    <url-pattern>/S01_AltaArticuloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SJSP_RuteadorServlet</display-name>
+    <servlet-name>SJSP_RuteadorServlet</servlet-name>
+    <servlet-class>mx.com.qtx.web.SJSP_RuteadorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SJSP_RuteadorServlet</servlet-name>
+    <url-pattern>/SJSP_RuteadorServlet</url-pattern>
+  </servlet-mapping>
+ --></web-app>

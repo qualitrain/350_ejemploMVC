@@ -1,0 +1,63 @@
+h2{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align:center;
+	border: solid grey 1px;
+	background-color: white;
+}
+a {
+	text-decoration:none;
+	color:white;
+	display:block; /* usa todo el ancho del elemento */
+	width:280px;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+	padding-left: 4px;
+}
+a:hover {
+	background-color: red;
+	color:white;
+	text-align:center;
+	letter-spacing:1px;
+	width:276px;
+}
+ul
+{
+	list-style-type:none; /* elimina el marcador de los items */
+	padding:0px;
+	margin:0px;
+}
+#cajaMenu {
+	margin-left:20%;
+	margin-top:20px;
+	padding:10px;
+	border: solid black 2px;
+	width:280px;
+	background-color: LightGray;
+}
+.menu-item {
+	width:280px;
+	height:30px;
+}
+.sub-menu-item{
+	text-indent:25px;
+}
+#menu-item- {
+	background-color: MidnightBlue;
+}
+#menu-item-A {
+	background-color: DarkGreen;
+}
+#menu-item-B {
+	background-color: LightSkyBlue;
+}
+#menu-item-C {
+	background-color: DarkSlateGray;
+}
+#menu-item-D {
+	background-color: DimGray;
+}
+#menu-item-E {
+	background-color: SteelBlue;
+}

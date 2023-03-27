@@ -1,0 +1,38 @@
+table{
+  width:700px;
+  border: solid gray 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+th{
+  border: solid green 1px;
+  background-color: green;
+  color: white;
+  padding: 5px;
+	}
+tr{
+	background-color: #FFFFCC;
+	}
+td{
+/*  border: solid green 2px; */
+  padding: 5px;
+}
+tr.renglonPar{
+  background-color: #FFCC99;
+}
+.numRenglon{
+	color:Green;
+	}
+		
+h3{
+    color:Green;
+    text-align: center;
+}
+form{
+	margin-top:20px;
+	width:700px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
