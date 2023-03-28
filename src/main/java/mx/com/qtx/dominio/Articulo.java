@@ -1,10 +1,5 @@
 package mx.com.qtx.dominio;
 
-import java.sql.SQLException;
-import java.util.HashMap;
-
-import mx.com.qtx.persistencia.GestorBD;
-
 public class Articulo {
 	private String cveArticulo;
 	private String descripcion;
@@ -25,18 +20,6 @@ public class Articulo {
 		this.cveArticulo = cveArticulo;
 	}
 
-	public static HashMap<String,Articulo> recuperarTodos() throws SQLException{
-		return GestorBD.recuperarArticulosTodos();
-	}
-	public static Articulo recuperaXid(String cveArticulo)throws SQLException{
-		return GestorBD.recuperarArticuloXid(cveArticulo);
-	}
-	public static void factorizarPrecios (float factor) throws SQLException{
-		GestorBD.factorizarPrecioArticulos(factor);
-	}
-	public static int getCantidadArticulosDadosDeAlta()throws SQLException{
-		return GestorBD.recuperarCuantosArticulosHayEnBD();
-	}
 	public String getCveArticulo() {
 		return cveArticulo;
 	}
@@ -75,18 +58,4 @@ public class Articulo {
 				+ descripcion + ", costoProv1=" + costoProv1 + ", precioLista="
 				+ precioLista + "]";
 	}
-	public int insertarEnBD()throws SQLException{
-		return GestorBD.insertarArticulo(this);
-		
-	}
-	public int actualizarEnBD()throws SQLException{
-		return GestorBD.actualizarArticulo(this);
-	}
-	public int eliminarEnBD()throws SQLException{
-		return GestorBD.eliminarArticulo(this);
-	}
-	public static HashMap<String,Articulo> buscarXdescripcion(String patronBusqueda) throws SQLException{
-		return GestorBD.buscarArticulosXdescripcion(patronBusqueda);
-	}	
-	
 }

@@ -1,9 +1,10 @@
 package mx.com.qtx.dominio;
 
-import java.sql.SQLException;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
-
-import mx.com.qtx.persistencia.GestorBD;
 
 public class Persona {
 	private int idPersona;
@@ -40,6 +41,13 @@ public class Persona {
 	public Date getFechaNacimiento() {
 		return fechaNacimiento;
 	}
+	public String getFecNacDdMmAaaa() {
+		Instant instant = this.fechaNacimiento.toInstant();
+		ZonedDateTime zonedDateTime = instant.atZone(ZoneId.systemDefault());
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		String fechaFormateada = zonedDateTime.format(formatter);
+		return fechaFormateada;
+	}
 	public void setFechaNacimiento(Date fechaNacimiento) {
 		this.fechaNacimiento = fechaNacimiento;
 	}
@@ -49,9 +57,5 @@ public class Persona {
 				+ ", direccion=" + direccion + ", fechaNacimiento="
 				+ fechaNacimiento + "]";
 	}
-	public static Persona recuperaXid(int idPersona)throws SQLException{
-		return GestorBD.recuperarPersonaXid(idPersona);
-	}
-
 
 }

@@ -51,7 +51,4 @@ public class DetalleVenta {
 				+ cantidad + ", articuloVendido=" + articuloVendido
 				+ ", precioUnitario=" + precioUnitario + "]";
 	}
-	
-
-
 }

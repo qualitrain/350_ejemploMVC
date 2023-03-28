@@ -37,7 +37,7 @@
 				  <td><c:out value="${persona.idPersona}" /></td>
 				  <td><c:out value="${persona.nombre}" /></td>
 				  <td><c:out value="${persona.direccion}" /></td>
-				  <td><c:out value="${persona.fechaNacimiento}" /></td>
+				  <td><c:out value="${persona.fecNacDdMmAaaa}" /></td>
 			    </tr>
 			  <c:set var="i" value="${i+1}"/>
       		</c:forEach>

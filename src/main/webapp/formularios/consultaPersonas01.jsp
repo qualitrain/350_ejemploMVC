@@ -28,7 +28,7 @@
 				  <td>${persona.idPersona}</td>
 				  <td>${persona.nombre}</td>
 				  <td>${persona.direccion}</td>
-				  <td>${persona.fechaNacimiento}</td>
+				  <td>${persona.fecNacDdMmAaaa}</td>
 			    </tr>
       		</c:forEach>
 		</tbody>
