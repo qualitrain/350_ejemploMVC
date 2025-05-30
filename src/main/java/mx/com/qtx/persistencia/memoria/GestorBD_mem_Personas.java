@@ -1,4 +1,4 @@
-package mx.com.qtx.persistencia;
+package mx.com.qtx.persistencia.memoria;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -24,7 +24,7 @@ public class GestorBD_mem_Personas implements IGestorBD_Personas{
 	}
 
 	private void cargarPersonas() {
-		Persona personaI = new Persona(1,"Alajandro Ramirez De la Huerta","Av. Insurgentes Sur 456, col. Roma", Fecha.crearDate(1970, 9, 11));
+		Persona personaI = new Persona(1,"Alejandro Ramirez De la Huerta","Av. Insurgentes Sur 456, col. Roma", Fecha.crearDate(1970, 9, 11));
 		this.mapPersonas.put(personaI.getIdPersona(), personaI);
 		personaI = new Persona(2,"Jorge Fernandez Menendez","Salvador Diaz Miron 456, col. Del Valle", Fecha.crearDate(1954, 12, 31));
 		this.mapPersonas.put(personaI.getIdPersona(), personaI);

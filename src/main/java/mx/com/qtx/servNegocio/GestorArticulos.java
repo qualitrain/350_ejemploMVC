@@ -2,13 +2,12 @@ package mx.com.qtx.servNegocio;
 
 import java.util.HashMap;
 
-import javax.servlet.http.HttpServletRequest;
-
+import jakarta.servlet.http.HttpServletRequest;
+import mx.com.qtx.coreNegocio.IGestorArticulos;
+import mx.com.qtx.coreNegocio.NegocioException;
 import mx.com.qtx.dominio.Articulo;
-import mx.com.qtx.persistencia.GestorBD_mem_Articulos;
+import mx.com.qtx.persistencia.memoria.GestorBD_mem_Articulos;
 import mx.com.qtx.util.Validador;
-import mx.com.qtx.web.IGestorArticulos;
-import mx.com.qtx.web.NegocioException;
 
 public class GestorArticulos implements IGestorArticulos{
 	

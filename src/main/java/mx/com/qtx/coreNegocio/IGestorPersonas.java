@@ -1,4 +1,4 @@
-package mx.com.qtx.web;
+package mx.com.qtx.coreNegocio;
 
 import mx.com.qtx.dominio.GrupoPersonas;
 

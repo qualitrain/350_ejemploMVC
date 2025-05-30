@@ -1,9 +1,9 @@
 package mx.com.qtx.servNegocio;
 
+import mx.com.qtx.coreNegocio.IGestorPersonas;
+import mx.com.qtx.coreNegocio.NegocioException;
 import mx.com.qtx.dominio.GrupoPersonas;
-import mx.com.qtx.persistencia.GestorBD_mem_Personas;
-import mx.com.qtx.web.IGestorPersonas;
-import mx.com.qtx.web.NegocioException;
+import mx.com.qtx.persistencia.memoria.GestorBD_mem_Personas;
 
 public class GestorPersonas implements IGestorPersonas{
 	private IGestorBD_Personas bdPersonas;

@@ -1,4 +1,4 @@
-package mx.com.qtx.persistencia;
+package mx.com.qtx.persistencia.memoria;
 
 import java.util.Hashtable;
 import java.util.Map;

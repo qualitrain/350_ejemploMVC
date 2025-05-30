@@ -1,4 +1,4 @@
-package mx.com.qtx.web;
+package mx.com.qtx.coreNegocio;
 
 public class NegocioException extends RuntimeException {
 

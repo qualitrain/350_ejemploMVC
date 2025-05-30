@@ -1,8 +1,8 @@
-package mx.com.qtx.web;
+package mx.com.qtx.coreNegocio;
 
 import java.util.HashMap;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import mx.com.qtx.dominio.Articulo;
 
